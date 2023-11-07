@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "nwL2Gds46RN4OVYpApqdAp9H6q6p+d114ItJcixz5VZPWf9WjALE3E6+W4qCohj8oVT0fXOK2lVZlKknsdxRxw==",
+  "dgSpecHash": "Mqpl7wdSTCCl8WEcfsICK72Jq6ewg6uCuzln4ZSWvWTdSSA041qU6aSUF7eMzBOwZ1U4th19F19RJe+LecrEJQ==",
   "success": true,
   "projectFilePath": "C:\\Interview Projects\\InsuranceApp\\InsuranceApp.Tests\\InsuranceApp.Tests.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,7 @@
     "C:\\Users\\olaopaia\\.nuget\\packages\\coverlet.collector\\3.1.0\\coverlet.collector.3.1.0.nupkg.sha512",
     "C:\\Users\\olaopaia\\.nuget\\packages\\microsoft.codecoverage\\16.11.0\\microsoft.codecoverage.16.11.0.nupkg.sha512",
     "C:\\Users\\olaopaia\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
+    "C:\\Users\\olaopaia\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\olaopaia\\.nuget\\packages\\microsoft.net.test.sdk\\16.11.0\\microsoft.net.test.sdk.16.11.0.nupkg.sha512",
     "C:\\Users\\olaopaia\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\olaopaia\\.nuget\\packages\\microsoft.netcore.targets\\1.0.1\\microsoft.netcore.targets.1.0.1.nupkg.sha512",

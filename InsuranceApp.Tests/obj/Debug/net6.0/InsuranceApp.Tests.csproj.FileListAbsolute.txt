@@ -97,3 +97,14 @@ C:\Interview Projects\InsuranceApp\InsuranceApp.Tests\obj\Debug\net6.0\Insurance
 C:\Interview Projects\InsuranceApp\InsuranceApp.Tests\obj\Debug\net6.0\ref\InsuranceApp.Tests.dll
 C:\Interview Projects\InsuranceApp\InsuranceApp.Tests\obj\Debug\net6.0\InsuranceApp.Tests.pdb
 C:\Interview Projects\InsuranceApp\InsuranceApp.Tests\obj\Debug\net6.0\InsuranceApp.Tests.genruntimeconfig.cache
+C:\Interview Projects\InsuranceApp\InsuranceApp.Tests\bin\Debug\net6.0\CoverletSourceRootsMapping
+C:\Interview Projects\InsuranceApp\InsuranceApp.Tests\bin\Debug\net6.0\Castle.Core.dll
+C:\Interview Projects\InsuranceApp\InsuranceApp.Tests\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Interview Projects\InsuranceApp\InsuranceApp.Tests\bin\Debug\net6.0\Moq.dll
+C:\Interview Projects\InsuranceApp\InsuranceApp.Tests\bin\Debug\net6.0\System.Diagnostics.EventLog.dll
+C:\Interview Projects\InsuranceApp\InsuranceApp.Tests\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.Messages.dll
+C:\Interview Projects\InsuranceApp\InsuranceApp.Tests\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.dll
+C:\Interview Projects\InsuranceApp\InsuranceApp.Tests\bin\Debug\net6.0\InsuranceApp.Application.dll
+C:\Interview Projects\InsuranceApp\InsuranceApp.Tests\bin\Debug\net6.0\InsuranceApp.Core.dll
+C:\Interview Projects\InsuranceApp\InsuranceApp.Tests\bin\Debug\net6.0\InsuranceApp.Application.pdb
+C:\Interview Projects\InsuranceApp\InsuranceApp.Tests\bin\Debug\net6.0\InsuranceApp.Core.pdb
