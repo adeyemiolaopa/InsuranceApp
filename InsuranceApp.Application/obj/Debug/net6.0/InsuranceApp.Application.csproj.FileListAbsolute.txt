@@ -1,0 +1,15 @@
+C:\Interview Projects\InsuranceApp\InsuranceApp.Application\bin\Debug\net6.0\InsuranceApp.Application.deps.json
+C:\Interview Projects\InsuranceApp\InsuranceApp.Application\bin\Debug\net6.0\InsuranceApp.Application.dll
+C:\Interview Projects\InsuranceApp\InsuranceApp.Application\bin\Debug\net6.0\ref\InsuranceApp.Application.dll
+C:\Interview Projects\InsuranceApp\InsuranceApp.Application\bin\Debug\net6.0\InsuranceApp.Application.pdb
+C:\Interview Projects\InsuranceApp\InsuranceApp.Application\bin\Debug\net6.0\InsuranceApp.Core.dll
+C:\Interview Projects\InsuranceApp\InsuranceApp.Application\bin\Debug\net6.0\InsuranceApp.Core.pdb
+C:\Interview Projects\InsuranceApp\InsuranceApp.Application\obj\Debug\net6.0\InsuranceApp.Application.csproj.AssemblyReference.cache
+C:\Interview Projects\InsuranceApp\InsuranceApp.Application\obj\Debug\net6.0\InsuranceApp.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Interview Projects\InsuranceApp\InsuranceApp.Application\obj\Debug\net6.0\InsuranceApp.Application.AssemblyInfoInputs.cache
+C:\Interview Projects\InsuranceApp\InsuranceApp.Application\obj\Debug\net6.0\InsuranceApp.Application.AssemblyInfo.cs
+C:\Interview Projects\InsuranceApp\InsuranceApp.Application\obj\Debug\net6.0\InsuranceApp.Application.csproj.CoreCompileInputs.cache
+C:\Interview Projects\InsuranceApp\InsuranceApp.Application\obj\Debug\net6.0\InsuranceApp.Application.csproj.CopyComplete
+C:\Interview Projects\InsuranceApp\InsuranceApp.Application\obj\Debug\net6.0\InsuranceApp.Application.dll
+C:\Interview Projects\InsuranceApp\InsuranceApp.Application\obj\Debug\net6.0\ref\InsuranceApp.Application.dll
+C:\Interview Projects\InsuranceApp\InsuranceApp.Application\obj\Debug\net6.0\InsuranceApp.Application.pdb
