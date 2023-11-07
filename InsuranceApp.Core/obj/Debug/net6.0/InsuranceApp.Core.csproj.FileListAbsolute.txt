@@ -1,0 +1,11 @@
+C:\Interview Projects\InsuranceApp\InsuranceApp.Core\bin\Debug\net6.0\InsuranceApp.Core.deps.json
+C:\Interview Projects\InsuranceApp\InsuranceApp.Core\bin\Debug\net6.0\InsuranceApp.Core.dll
+C:\Interview Projects\InsuranceApp\InsuranceApp.Core\bin\Debug\net6.0\ref\InsuranceApp.Core.dll
+C:\Interview Projects\InsuranceApp\InsuranceApp.Core\bin\Debug\net6.0\InsuranceApp.Core.pdb
+C:\Interview Projects\InsuranceApp\InsuranceApp.Core\obj\Debug\net6.0\InsuranceApp.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Interview Projects\InsuranceApp\InsuranceApp.Core\obj\Debug\net6.0\InsuranceApp.Core.AssemblyInfoInputs.cache
+C:\Interview Projects\InsuranceApp\InsuranceApp.Core\obj\Debug\net6.0\InsuranceApp.Core.AssemblyInfo.cs
+C:\Interview Projects\InsuranceApp\InsuranceApp.Core\obj\Debug\net6.0\InsuranceApp.Core.csproj.CoreCompileInputs.cache
+C:\Interview Projects\InsuranceApp\InsuranceApp.Core\obj\Debug\net6.0\InsuranceApp.Core.dll
+C:\Interview Projects\InsuranceApp\InsuranceApp.Core\obj\Debug\net6.0\ref\InsuranceApp.Core.dll
+C:\Interview Projects\InsuranceApp\InsuranceApp.Core\obj\Debug\net6.0\InsuranceApp.Core.pdb

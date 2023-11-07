@@ -1,0 +1,17 @@
+C:\Interview Projects\InsuranceApp\InsuranceApp.Infrastructure\bin\Debug\net6.0\InsuranceApp.Infrastructure.deps.json
+C:\Interview Projects\InsuranceApp\InsuranceApp.Infrastructure\bin\Debug\net6.0\InsuranceApp.Infrastructure.dll
+C:\Interview Projects\InsuranceApp\InsuranceApp.Infrastructure\bin\Debug\net6.0\ref\InsuranceApp.Infrastructure.dll
+C:\Interview Projects\InsuranceApp\InsuranceApp.Infrastructure\bin\Debug\net6.0\InsuranceApp.Infrastructure.pdb
+C:\Interview Projects\InsuranceApp\InsuranceApp.Infrastructure\bin\Debug\net6.0\InsuranceApp.Application.dll
+C:\Interview Projects\InsuranceApp\InsuranceApp.Infrastructure\bin\Debug\net6.0\InsuranceApp.Core.dll
+C:\Interview Projects\InsuranceApp\InsuranceApp.Infrastructure\bin\Debug\net6.0\InsuranceApp.Application.pdb
+C:\Interview Projects\InsuranceApp\InsuranceApp.Infrastructure\bin\Debug\net6.0\InsuranceApp.Core.pdb
+C:\Interview Projects\InsuranceApp\InsuranceApp.Infrastructure\obj\Debug\net6.0\InsuranceApp.Infrastructure.csproj.AssemblyReference.cache
+C:\Interview Projects\InsuranceApp\InsuranceApp.Infrastructure\obj\Debug\net6.0\InsuranceApp.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Interview Projects\InsuranceApp\InsuranceApp.Infrastructure\obj\Debug\net6.0\InsuranceApp.Infrastructure.AssemblyInfoInputs.cache
+C:\Interview Projects\InsuranceApp\InsuranceApp.Infrastructure\obj\Debug\net6.0\InsuranceApp.Infrastructure.AssemblyInfo.cs
+C:\Interview Projects\InsuranceApp\InsuranceApp.Infrastructure\obj\Debug\net6.0\InsuranceApp.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Interview Projects\InsuranceApp\InsuranceApp.Infrastructure\obj\Debug\net6.0\InsuranceApp.Infrastructure.csproj.CopyComplete
+C:\Interview Projects\InsuranceApp\InsuranceApp.Infrastructure\obj\Debug\net6.0\InsuranceApp.Infrastructure.dll
+C:\Interview Projects\InsuranceApp\InsuranceApp.Infrastructure\obj\Debug\net6.0\ref\InsuranceApp.Infrastructure.dll
+C:\Interview Projects\InsuranceApp\InsuranceApp.Infrastructure\obj\Debug\net6.0\InsuranceApp.Infrastructure.pdb
