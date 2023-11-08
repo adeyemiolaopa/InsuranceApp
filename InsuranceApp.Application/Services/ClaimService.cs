@@ -17,7 +17,7 @@ namespace InsuranceApp.Application.Services
             _claimRepository = claimRepository;
         }
 
-        public IAsyncEnumerable<Claim> GetClaimsAsync(string policyHolderNationalId)
+        public IEnumerable<Claim> GetClaimsAsync(string policyHolderNationalId)
         {
             return _claimRepository.GetClaimsAsync(policyHolderNationalId);
         }
