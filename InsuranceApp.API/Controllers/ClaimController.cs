@@ -14,9 +14,9 @@ namespace InsuranceApp.API.Controllers
         private readonly ILogger<ClaimController> _logger;
         private readonly IClaimService _claimService;
 
-        public ClaimController(ILogger<ClaimController> logger, IClaimService claimService)
+        public ClaimController(IClaimService claimService)
         {
-            _logger = logger;
+            //_logger = logger;
             _claimService = claimService;
         }
 
@@ -24,25 +24,46 @@ namespace InsuranceApp.API.Controllers
         [ProducesResponseType(typeof(Claim), (int)HttpStatusCode.OK)]
         public async Task<ActionResult<Claim>> AddClaim([FromBody] Claim request)
         {
-            // I would have used a DTO object here and mapper if not for the time constraint
-            var result = await _claimService.AddClaimAsync(request);
-            return Ok(result);
+            try
+            {
+                // I would have used a DTO object here and mapper if not for the time constraint
+                var result = await _claimService.AddClaimAsync(request);
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex);
+            }
         }
 
         [HttpGet("GetClaimById")]
         [ProducesResponseType(typeof(Claim), (int)HttpStatusCode.OK)]
         public async Task<ActionResult<Claim>> GetClaimById(Guid claimId)
         {
-            var result = await _claimService.GetClaimByIdAsync(claimId);
-            return Ok(result);
+            try
+            {
+                var result = await _claimService.GetClaimByIdAsync(claimId);
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex);
+            }
         }
 
         [HttpGet("GetClaims")]
-        [ProducesResponseType(typeof(List<Claim>), (int)HttpStatusCode.OK)]
-        public async Task<ActionResult<List<Claim>>> GetClaims(string placeHolderId)
+        //[ProducesResponseType(typeof(List<Claim>), (int)HttpStatusCode.OK)]
+        public async Task<IActionResult> GetClaims(string placeHolderId)
         {
-            var result = _claimService.GetClaimsAsync(placeHolderId);
-            return Ok(result);
+            try
+            {
+                var result = _claimService.GetClaimsAsync(placeHolderId);
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex);
+            }
         }
     }
 }

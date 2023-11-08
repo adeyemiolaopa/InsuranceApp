@@ -28,9 +28,9 @@ namespace InsuranceApp.Infrastructure.Repository
             return claim;
         }
 
-        public IAsyncEnumerable<Claim> GetClaimsAsync(string policyHolderNationalId)
+        public IEnumerable<Claim> GetClaimsAsync(string policyHolderNationalId)
         {
-            var result = _dbContext.Claims.Where(O => O.PolicyHolderNationalId  == policyHolderNationalId).AsAsyncEnumerable();
+            var result = _dbContext.Claims.Where(O => O.PolicyHolderNationalId  == policyHolderNationalId).AsEnumerable();
             return result;
         }     
 
