@@ -4,7 +4,7 @@ namespace InsuranceApp.Application.Interfaces
 {
     public interface IClaimService
     {
-        Task<Claim> AddClaimAsync(Claim claim);
+        Claim AddClaimAsync(Claim claim);
         IEnumerable<Claim> GetClaimsAsync(string policyHolderNationalId);
         Task<Claim> UpdateClaimStatusAsync(Guid claimId, ClaimStatus status);
         Task<Claim> GetClaimByIdAsync(Guid claimId);

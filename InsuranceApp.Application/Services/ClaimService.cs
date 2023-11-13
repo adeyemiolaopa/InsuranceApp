@@ -22,7 +22,7 @@ namespace InsuranceApp.Application.Services
             return _claimRepository.GetClaimsAsync(policyHolderNationalId);
         }
 
-        public Task<Claim> AddClaimAsync(Claim claim)
+        public Claim AddClaimAsync(Claim claim)
         {
             claim.ClaimId = Guid.NewGuid(); // Generate a unique ID
             claim.Status = ClaimStatus.Submitted;
@@ -30,7 +30,7 @@ namespace InsuranceApp.Application.Services
 
             // Additional business logic or validation can be added here
             var response = _claimRepository.AddClaimAsync(claim).Result;
-            return Task.FromResult(response);
+            return response;
         }
 
         public async Task<Claim> UpdateClaimStatusAsync(Guid claimId, ClaimStatus status)

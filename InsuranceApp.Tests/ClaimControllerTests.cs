@@ -27,25 +27,6 @@ namespace InsuranceApp.Tests
         }
 
         [Test]
-        public void AddClaimAsync_ClaimCreated()
-        {
-            //Arrange
-            var request = new Claim() 
-            { 
-                ClaimId = Guid.NewGuid(), 
-                //PolicyHolderNationalId = "TEST12166", 
-                CreatedDate = DateTime.Now, 
-                Status = ClaimStatus.Submitted, 
-            };
-
-            //Act
-            var response = _claimService.Setup(O => O.AddClaimAsync(request).Result);
-
-            //Assert
-            //Assert.Pass(response);
-        }
-
-        [Test]
         public async Task GetClaims_ReturnsOk()
         {
             //Arrange
@@ -70,6 +51,39 @@ namespace InsuranceApp.Tests
             _claimService.Setup(O => O.GetClaimsAsync(_policyHolderNationalId)).Throws(new Exception());
             _controller = new ClaimController(_claimService.Object);
             var result = await _controller.GetClaims(_policyHolderNationalId);
+            var obj = result as ObjectResult;
+
+            //Assert
+            Assert.AreEqual(400, obj.StatusCode);
+        }
+
+        [Test]
+        public async Task AddClaim_ReturnsOk()
+        {
+            //Arrange
+            var claim = _fixture.Create<Claim>();
+
+            //Act
+            _claimService.Setup(O => O.AddClaimAsync(It.IsAny<Claim>())).Returns(claim);
+
+            _controller = new ClaimController(_claimService.Object);
+            var result = await _controller.AddClaim(claim);
+            var obj = result as ObjectResult;
+
+            //Assert
+            Assert.AreEqual(200, obj.StatusCode);
+        }
+
+        [Test]
+        public async Task AddClaim_ThrowsException()
+        {
+            //Arrange
+            var claim = _fixture.Create<Claim>();
+
+            //Act
+            _claimService.Setup(O => O.AddClaimAsync(It.IsAny<Claim>())).Throws(new Exception());
+            _controller = new ClaimController(_claimService.Object);
+            var result = await _controller.AddClaim(claim);
             var obj = result as ObjectResult;
 
             //Assert

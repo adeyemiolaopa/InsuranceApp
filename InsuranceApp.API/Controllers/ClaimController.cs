@@ -21,14 +21,21 @@ namespace InsuranceApp.API.Controllers
         }
 
         [HttpPost("AddClaim")]
-        [ProducesResponseType(typeof(Claim), (int)HttpStatusCode.OK)]
-        public async Task<ActionResult<Claim>> AddClaim([FromBody] Claim request)
+        //[ProducesResponseType(typeof(Claim), (int)HttpStatusCode.OK)]
+        public async Task<IActionResult> AddClaim([FromBody] Claim request)
         {
             try
             {
-                // I would have used a DTO object here and mapper if not for the time constraint
-                var result = await _claimService.AddClaimAsync(request);
-                return Ok(result);
+                if (ModelState.IsValid)
+                {
+                    // I would have used a DTO object here and mapper if not for the time constraint
+                    var result = _claimService.AddClaimAsync(request);
+                    return Ok(result);
+                }
+                else
+                {
+                    return BadRequest();
+                }
             }
             catch (Exception ex)
             {
